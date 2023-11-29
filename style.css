@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+header
+{
+    height:360px;
+    width: 100%;
+    background-image:url(/inr-banner-my-pride.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.curve
+{
+    left: -10px;
+    width: auto;
+    height: 120px;
+    background-size: 100%;
+    background: url(/logo-curv.png) no-repeat 0 15px;
+    position: relative;
+    float: left;
+    width: 414px;
+    height: 160px;
+    display: block;
+    border: none;
+    outline: none;
+}
+.head-logo
+{
+    width: fit-content;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+    
+}
+
+.head-logo .ashoka
+{
+    height: 85px;
+    width: auto;
+    padding: 14px 25px 0px 14px;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+
+}
+
+.head-logo img
+{
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+
+}
+
+.menu-bar
+{
+    width: fit-content;
+    position: relative;
+    float: right;
+    margin-right: 80px;
+    
+}
+
+.menu-bar .lists
+{
+    background-color: white;
+    height: 38px;
+    opacity: 0.7;
+    overflow: hidden;   
+}
+.lists .d1{
+    display: inline;  
+    padding: 10px 7px;
+    font-size:15px;
+    float: left;
+    border-right: 1px solid rgb(160, 159, 159,0.7);         
+}
+.lists .di:last-child
+{
+    border-right: none;
+    padding: 12px;
+}
+.lists .d1:first-child
+{
+    padding-left: 12px;
+    padding-right: 15px;
+    padding-top:6px ;
+    line-height: 150%;
+}
+.lists .d1:nth-child(3)
+{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+.lists .d1 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+.lists .d1 a:hover
+{
+    color: crimson;
+}
+.nest .n1
+{
+    display: block;
+    text-align: left;
+    color: black;
+    line-height: 140%;
+    padding: 5px 12.5px;
+    padding-left: 14.5px;
+
+    
+}
+.nestlist .nest{
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: fit-content;
+    margin-left: -12px;
+    height: fit-content;
+    background-color:white;
+    
+}
+.nestlist .d2:hover .nest
+{
+    display: block;
+    
+}
+.nestlist .d2 .nest .n1:hover{
+    color: crimson;
+}
+
+nav
+{
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 313px;
+    background-color:   rgb(53, 52, 52,0.9);
+}
+.nav .sub .dumb{
+    display: inline;
+    float: left;
+    font-size:15px;
+    border-right: 1px solid rgb(160, 159, 159,0.7);    
+    color: white;
+    text-align: center;
+    padding: 13px;
+    line-height: 140%;
+}
+.nav .sub .dumb i{
+    font-size: 10px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin: 2px;
+    display: inline-block;
+}
+.nav .sub .dumb:hover{
+    color: crimson;
+    background-color: rgba(240, 239, 239, 0.986);
+    font-weight: bold;
+    
+}
+.sup .dumber
+{
+    display: block;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    padding: 10px;
+    
+}
+.nav .sup{
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: 300px;
+    margin-left: -13px;
+    height: fit-content;
+    background-color:rgba(240, 239, 239, 0.986) ;
+}
+.nav li:hover .sup
+{
+    display: block;
+    
+}
+.nav .sub .sup .dumber:hover{
+    color: crimson;
+}
+section .content .header
+{
+    height: 50px;
+    width: 86.6%;
+    margin-left: 96px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(160, 159, 159,0.7);
+}
+.body .content .header .home-nav 
+{
+    padding: 15px;
+    padding-top: 12px;
+    padding-left: 0;
+}
+.body .content .header .home-nav .nav1
+{
+    display: inline;
+    padding: 10px;
+    padding-right: 5px;
+    padding-left: 0;
+}
+.body .content .header .home-nav .fa-caret-right
+{
+    font-size: 14px;
+    padding: 5px;
+    color: rgb(97, 96, 96);
+}
+.body .content .header .home-nav a
+{
+    color: rgb(97, 96, 96);
+    text-align: center;
+    font-size: 15px;
+}
+.body .header .home-nav a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.body .content .header .print 
+{
+    padding: 15px;
+    padding-top: 12px;
+    margin-top: -50px;
+    float: right;
+}
+.body .content .header .print .nav2
+{
+    display: inline;
+    padding: 10px 5px;
+}
+.body .content .header .print .nav2:first-child
+{
+    border-right: 1px solid rgb(97, 96, 96, 0.7);
+    padding-right: 15px;
+    font-size: 18px; 
+    color: black;
+}
+
+.body .content .header .print a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.body .content .header .print a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.main-class .main-body
+{
+    width: 86.6%;
+    margin: 35px 96px ;
+    height: fit-content;   
+}
+.main-class .main-body .heading 
+{
+    margin-bottom: 20px;
+}
+.main-class .main-body .heading h1
+{
+    font-size: 35px;
+    color: rgb(70, 69, 69);
+}
+.main-class .main-body .heading img
+{
+    margin-bottom: 25px;
+    margin-top: 12px;
+}
+.main-class .main-body .heading .sub-head p{
+    font-size: 19px;
+}
+.main-class .main-body .poem-1
+{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #afaeae;
+}
+.main-class .main-body .poem-1 .poem-head
+{
+    margin-bottom: 60px;
+}
+.main-class .main-body .poem-1 .poem-head p{
+    font-size: 20.5px;
+    color: grey;
+}
+.main-class .main-body .poem-1 .arti-1 p{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 72px;
+    border-left: 8px solid #e7e7e7;
+}
+
+.main-class .main-body .poem-1 .arti-2
+{
+    position: relative;
+    float: right;
+    margin-top: -495px;
+    margin-right: 243px;
+}
+
+.main-class .main-body .poem-1
+{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #afaeae;
+}
+.main-class .main-body .poem-1 .poem-head
+{
+    margin-bottom: 60px;
+}
+.main-class .main-body .poem-1 .poem-head p{
+    
+    margin-top: 60px;
+    font-size: 20.5px;
+    color: grey;
+}
+.main-class .main-body .poem-1 .arti-1 p{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 72px;
+    border-left: 8px solid #e7e7e7;
+}
+
+.main-class .main-body .poem-1 .arti-2
+{
+    position: relative;
+    float: right;
+    margin-top: -495px;
+    margin-right: 243px;
+}
+.main-body .poem-1:last-child
+{
+    border-bottom: none;
+}
+.footer-bar
+{
+    
+}
+.footer-bar img{
+    width: 1800px;
+    height: 600px;
+
+}
+
+
+
+
+
+
